@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MattBaileyDesignsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efc4964081d5dd4a14da149ddb335f8fdca0cad4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6028761477ebb2bd9951e7b86a8a9f8319c8e64d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MattBaileyDesignsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MattBaileyDesignsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

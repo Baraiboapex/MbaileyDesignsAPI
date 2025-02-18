@@ -1,0 +1,13 @@
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\bin\Debug\net8.0\MBaileyDesignsDomain.deps.json
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\bin\Debug\net8.0\MBaileyDesignsDomain.dll
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\bin\Debug\net8.0\MBaileyDesignsDomain.pdb
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.csproj.AssemblyReference.cache
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.AssemblyInfoInputs.cache
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.AssemblyInfo.cs
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.csproj.CoreCompileInputs.cache
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.sourcelink.json
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.dll
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\refint\MBaileyDesignsDomain.dll
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\MBaileyDesignsDomain.pdb
+C:\Users\matth\source\repos\MbaileyDesignsAPI\MBaileyDesignsDomain\obj\Debug\net8.0\ref\MBaileyDesignsDomain.dll

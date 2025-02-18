@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattBaileyDesignsAPI", "MattBaileyDesignsAPI\MattBaileyDesignsAPI.csproj", "{F8AF6805-C856-40F9-BA4C-8A9F3BC6458E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattBaileyDesignsAPI", "MattBaileyDesignsAPI\MattBaileyDesignsAPI.csproj", "{F8AF6805-C856-40F9-BA4C-8A9F3BC6458E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBaileyDesignsDomain", "MBaileyDesignsDomain\MBaileyDesignsDomain.csproj", "{A7ACFDD6-23F7-4988-BC74-443A145711B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MbaileyDesignsPersistence", "MbaileyDesignsPersistence\MbaileyDesignsPersistence.csproj", "{04EF2F4D-3209-46D9-BEC3-1358EC732D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F8AF6805-C856-40F9-BA4C-8A9F3BC6458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8AF6805-C856-40F9-BA4C-8A9F3BC6458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8AF6805-C856-40F9-BA4C-8A9F3BC6458E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7ACFDD6-23F7-4988-BC74-443A145711B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7ACFDD6-23F7-4988-BC74-443A145711B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7ACFDD6-23F7-4988-BC74-443A145711B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7ACFDD6-23F7-4988-BC74-443A145711B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EF2F4D-3209-46D9-BEC3-1358EC732D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EF2F4D-3209-46D9-BEC3-1358EC732D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EF2F4D-3209-46D9-BEC3-1358EC732D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EF2F4D-3209-46D9-BEC3-1358EC732D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,1050 @@
+[
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogCategoryController",
+    "Method": "AddBlogCategory",
+    "RelativePath": "addBlogCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogCategory",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogCategoryController.BlogCategoryAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "AddBlogCategory",
+    "RelativePath": "addBlogCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogCategoryDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogCategoryController.BlogCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "AddBlogPostt",
+    "RelativePath": "addBlogPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogPost",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogController.BlogAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ErrorsController",
+    "Method": "AddErrorFromFE",
+    "RelativePath": "addError",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newError",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ErrorsController.ErrorAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "AddComment",
+    "RelativePath": "addPostComment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentData",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "AddProject",
+    "RelativePath": "addProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsController.ProjectsAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectCategoryController",
+    "Method": "AddProjectCategory",
+    "RelativePath": "addProjectCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectCategory",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsCategoryController.ProjectCategoryAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "AddProjectCategory",
+    "RelativePath": "addProjectCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectCategoryDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsCategoryController.ProjectCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "AddComment",
+    "RelativePath": "addProjectComment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentData",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AboutController",
+    "Method": "Post",
+    "RelativePath": "api/About",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aboutPost",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.AboutController.AboutAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AboutController",
+    "Method": "Put",
+    "RelativePath": "api/About",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aboutPost",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.AboutController.AboutEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AboutController",
+    "Method": "Delete",
+    "RelativePath": "api/About/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogCategoryController",
+    "Method": "EditBlogCategory",
+    "RelativePath": "editBlogCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogCategory",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogCategoryController.BlogCategoryEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "EditBlogPost",
+    "RelativePath": "editBlogPost",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogPost",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogController.BlogEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "EditProject",
+    "RelativePath": "editProject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsController.ProjectsEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectCategoryController",
+    "Method": "EditProjectCategory",
+    "RelativePath": "editProjectCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectCategory",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsCategoryController.ProjectCategoryEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ErrorsController",
+    "Method": "GetErrors",
+    "RelativePath": "getErrors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amountToSelect",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AboutController",
+    "Method": "GetLatestAboutInfo",
+    "RelativePath": "getLatestAboutInfo/{amountToSelect}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amountToSelect",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "GetLatestBlogPosts",
+    "RelativePath": "getLatestBlogPosts/{amountToSelect}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amountToSelect",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "GetLatestProjects",
+    "RelativePath": "getLatestProjects/{amountToSelect}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amountToSelect",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "GetPostFieldValues",
+    "RelativePath": "getPostFieldValues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fieldName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "GetProjectFieldValues",
+    "RelativePath": "getProjectFieldFieldValues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fieldName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "GetSearchableFields",
+    "RelativePath": "getSearchableBlogPostFields",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "GetSearchableProjectFields",
+    "RelativePath": "getSearchableProjectFields",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "GetSingleBlogPost",
+    "RelativePath": "getSingleBlogPost",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "GetSingleProjectPost",
+    "RelativePath": "getSingleProjectPost",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.AuthController.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "refreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.AuthController.TokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.AuthController",
+    "Method": "RegisterNewAdmin",
+    "RelativePath": "registerNewAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.AuthController.UserRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "RemoveBlogCategory",
+    "RelativePath": "removeBlogCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogCategoryDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.BlogCategoryController.BlogCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "RemoveBlogPost",
+    "RelativePath": "removeBlogPost/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "RemoveProject",
+    "RelativePath": "removeProject/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "RemoveProjectCategory",
+    "RelativePath": "removeProjectCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectCategoryDTO",
+        "Type": "MattBaileyDesignsAPI.Controllers.InboundDTO.ProjectsCategoryController.ProjectCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "RequestAddPostComment",
+    "RelativePath": "requestAddPostComment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentData",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "RequestAddPostComment",
+    "RelativePath": "requestAddProjectComment/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentData",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ErrorsController",
+    "Method": "SearchErrorsByFilters",
+    "RelativePath": "searchErrorsByFilters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "errorsFilterContents",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "SearchPosts",
+    "RelativePath": "searchPosts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.BlogController",
+    "Method": "SearchPostsByFilters",
+    "RelativePath": "searchPostsByFilters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogPostFilterContents",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "SearchProjects",
+    "RelativePath": "searchProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MattBaileyDesignsAPI.Controllers.ProjectsController",
+    "Method": "SearchProjectsByFilters",
+    "RelativePath": "searchProjectsByFilters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectPostFilterContents",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MattBaileyDesignsAPI.Controllers.OutboundDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+﻿paths:
+  /blog/searchPostsByFilters:
+    get:
+        summary: search blog posts by a dynamic set of listed values
+        parameters:
+            - in: query
+              name: Blog Post Filters
+              schema: 
+                type: object
+                additionalProperties:
+                    oneOf: 
+                        - type: string
+                        - type: array
+                          items: 
+                            type: string
+    
+  /projects/searchProjectsByFilters:
+    get:
+        summary: search blog posts by a dynamic set of listed values
+        parameters:
+            - in: query
+              name: Project Post Filters
+              schema: 
+                type: object
+                additionalProperties:
+                    oneOf: 
+                        - type: string
+                        - type: array
+                          items: 
+                            type: string

@@ -1,11 +1,16 @@
-﻿namespace MattBaileyDesignsAPI.DbRepository.Interfaces
+﻿using MattBaileyDesignsAPI.Controllers;
+using MbaileyDesignsPersistence;
+
+namespace MattBaileyDesignsAPI.DbRepository.Interfaces
 {
-    public interface IDBRepository<T> where T : class
+    public interface IDBRepository<TEntity> where TEntity : class
     {
-        Task WriteToDb(T item);
-        Task<T> GetSingleFromDb(int id);
-        Task<List<T>> GetAllFromDb();
-        Task EditOnDb(T Item);
-        Task DeleteOnDb(T item, bool useHardDelete);
+        PostgresDataContext GetContext();
+        Task WriteToDb(TEntity item);
+        Task<TEntity> GetSingleFromDb(int id);
+        Task<List<TEntity>> GetAllFromDb();
+        Task EditOnDb(TEntity Item);
+        Task DeleteOnDb(TEntity item, bool useHardDelete);
+        Task<List<OutboundDTO>> GetAllFromDBFromSearchQuery(string storeProcName, Dictionary<string, object> queryItems);
     }
 }
